@@ -55,7 +55,7 @@ with open('../output/tall-women-computer-scientists.csv', 'w+') as csvfile:
     # this writes in the first row, which are the headers
     writer.writeheader()
 
-    # this loops through your rows (the array you set at the beginning and have updated throughtout)
+    # this looooops through your rows (the array you set at the beginning and have updated throughtout)
     for row in rows:
         # this takes each row and writes it into your csv
         writer.writerow(row)
